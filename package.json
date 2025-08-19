@@ -1,0 +1,32 @@
+{
+  "name": "synergy-drugmart-website",
+  "version": "1.0.0",
+  "description": "Professional pharmacy website for Synergy Drugmart",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "start-alt": "php -S localhost:8000",
+    "build": "echo 'Static website - no build process required'",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "pharmacy",
+    "healthcare",
+    "drugstore",
+    "prescription",
+    "medical",
+    "website"
+  ],
+  "author": "Synergy Drugmart",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synergy-drugmart/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/synergy-drugmart/website/issues"
+  },
+  "homepage": "https://github.com/synergy-drugmart/website#readme"
+}
